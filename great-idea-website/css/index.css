@@ -54,13 +54,145 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	max-width: 100%;
+	box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	box-sizing: border-box;
 }
 
 /* Your code starts here! */
+
+
+* {
+	max-width: 100%;
+}
+
+header {
+	text-align: center;
+	font-weight: 900;
+	font-size: 100px; 
+	position: relative;
+	right: 150px;
+	max-height: 100%;
+	margin-top: 130px;
+	max-width: 100%;
+}
+header section {
+	position: relative;
+	left: 600px;
+	bottom: 300px;
+	transform: scale(1.5);
+	max-width: 100%;
+}
+header span {
+	border: 1px black solid;
+	max-width: 20%;
+	height: 25px;
+	font-size: 25px;
+	padding: 10px 100px 10px 100px;
+	margin: 0px 0px 0px 0px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	box-sizing: border-box;
+}
+.contact {
+	margin: 100px;
+	width: 150px;
+	line-height: 40px;
+	position: relative;
+	left: 700px;
+	max-width: 100%;
+	margin-top: 30px;
+	padding-top: 10px;
+	font-size: 18px;
+}
+.contact div{
+	font-size: 25px;
+	font-weight: 900;
+	max-width: 100%;
+	margin-bottom: 15px;
+}
+.contact section {
+	line-height: 20px;
+}
+
+.bottom-content{
+	border-bottom: thin solid black;
+	width: 600px;
+	position: relative;
+	left: 800px;
+	font-size: 20px;
+	padding-top: 25px;
+	display: inline-block;
+}
+
+.top-content{
+	border-top: thin solid black;
+	width: 600px;
+	position: relative;
+	left: 800px;
+	max-height: 400px;
+	padding-top: 50px;
+	font-size: 20px;
+	display: inline-block;
+	max-width: 200px;
+}
+
+.navigation {
+	color:black;
+	text-align: center; 
+	margin: 10px;
+	word-spacing: 5em;
+	font-size: 20px;
+	opacity: .50;
+	margin-top: 70px;
+}
+.navigation section {
+	position: relative;
+	left: 670px;
+	bottom: 20px;
+	transform: scale(1.5);
+	color: black;
+}
+
+footer {
+text-align: center;
+margin: 50px;
+font-size: 20px;
+}
+
+/* images */
+.middle-img {
+	position: relative;
+	left: 250px;
+	top: 1000px;
+	transform: scale(1.5);
+	display: inline-block;
+}
+.titles {
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.features {
+
+}
+.about {
+
+}
+.services {
+
+}
+.product {
+
+}
+.vision {
+
+}
